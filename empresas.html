@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresas — Macsol</title>
+  <meta name="description" content="Soluciones de abastecimiento para empresas. Precios de volumen, facturación y atención personalizada.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="navbar-brand">
+      <img src="MACSOL_logos_file/MACSOL_logos/Logo_MACSOL-4.png" alt="Macsol" class="navbar-logo">
+    </a>
+    <button class="navbar-toggle" id="navToggle" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="navbar-menu" id="navMenu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="empresas.html">Empresas</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <a href="#quoteForm" class="btn btn-yellow navbar-cta">Cotizar ahora</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-content">
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-tag">Para empresas</div>
+      <h1>Tu proveedor estratégico de insumos</h1>
+      <p>Planes de abastecimiento continuo, precios de volumen y atención personalizada para empresas de todos los tamaños.</p>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="tag">Beneficios B2B</div>
+        <h2>¿Por qué elegirnos como proveedor?</h2>
+        <p>Diseñamos nuestra operación pensando en las empresas que confían en nosotros.</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="bi">💰</div>
+          <h3>Precios de volumen</h3>
+          <p>Descuentos escalonados según volumen de compra mensual. Mientras más compras, más ahorras.</p>
+        </div>
+        <div class="benefit-card" style="background:var(--yellow-light);border:1px solid var(--yellow-mid);">
+          <div class="bi">🏦</div>
+          <h3>Facturación con crédito</h3>
+          <p>Línea de crédito a 30/60 días para empresas con RUT. Facturación y boletas.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="bi">🚚</div>
+          <h3>Despacho garantizado</h3>
+          <p>Entrega en 48 hrs en Santiago. Coordinamos envíos a regiones.</p>
+        </div>
+        <div class="benefit-card" style="background:var(--yellow-light);border:1px solid var(--yellow-mid);">
+          <div class="bi">👤</div>
+          <h3>Ejecutivo dedicado</h3>
+          <p>Un ejecutivo de cuenta asignado a tu empresa para gestionar pedidos y resolver consultas.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="bi">📦</div>
+          <h3>Stock garantizado</h3>
+          <p>Disponibilidad permanente de productos críticos para tu operación, sin quiebres de stock.</p>
+        </div>
+        <div class="benefit-card" style="background:var(--yellow-light);border:1px solid var(--yellow-mid);">
+          <div class="bi">📊</div>
+          <h3>Reportes de compra</h3>
+          <p>Accede a tu historial de pedidos y reportes mensuales para optimizar tu presupuesto de insumos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTES -->
+  <section class="section-sm bg-gray">
+    <div class="container">
+      <div class="section-header" style="margin-bottom:32px;">
+        <div class="tag">Empresas que confían en Macsol</div>
+        <h2>Sectores que atendemos</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
+        <div style="background:var(--white);border-radius:var(--radius-lg);padding:24px;text-align:center;border:1px solid var(--gray-200);">
+          <div style="font-size:2rem;margin-bottom:8px;">🏢</div>
+          <h4>Oficinas corporativas</h4>
+        </div>
+        <div style="background:var(--white);border-radius:var(--radius-lg);padding:24px;text-align:center;border:1px solid var(--gray-200);">
+          <div style="font-size:2rem;margin-bottom:8px;">🏭</div>
+          <h4>Industria y manufactura</h4>
+        </div>
+        <div style="background:var(--white);border-radius:var(--radius-lg);padding:24px;text-align:center;border:1px solid var(--gray-200);">
+          <div style="font-size:2rem;margin-bottom:8px;">🏥</div>
+          <h4>Salud y clínicas</h4>
+        </div>
+        <div style="background:var(--white);border-radius:var(--radius-lg);padding:24px;text-align:center;border:1px solid var(--gray-200);">
+          <div style="font-size:2rem;margin-bottom:8px;">🏗️</div>
+          <h4>Construcción e inmobiliaria</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO DE COTIZACIÓN -->
+  <section class="section" id="quoteForm">
+    <div class="container">
+      <div class="section-header">
+        <div class="tag">Cotización B2B</div>
+        <h2>Solicita tu cotización</h2>
+        <p>Completa el formulario y un ejecutivo te contactará en menos de 24 horas hábiles.</p>
+      </div>
+      <div class="quote-form-wrapper">
+        <div class="form-success" id="quoteSuccess">
+          ✅ ¡Cotización recibida! Te contactaremos a la brevedad. Gracias por preferir Macsol.
+        </div>
+        <form data-ajax id="quoteFormEl">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Nombre de contacto *</label>
+              <input type="text" class="form-control" placeholder="Juan Pérez" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Empresa *</label>
+              <input type="text" class="form-control" placeholder="Nombre de tu empresa" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">RUT empresa</label>
+              <input type="text" class="form-control" placeholder="12.345.678-9">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Rubro *</label>
+              <select class="form-control" required>
+                <option value="">Selecciona tu rubro…</option>
+                <option>Oficina / Corporativo</option>
+                <option>Industria / Manufactura</option>
+                <option>Salud / Clínica</option>
+                <option>Construcción / Inmobiliaria</option>
+                <option>Comercio / Retail</option>
+                <option>Educación</option>
+                <option>Otro</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Email corporativo *</label>
+              <input type="email" class="form-control" placeholder="juan@empresa.cl" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Teléfono *</label>
+              <input type="tel" class="form-control" placeholder="+56 9 1234 5678" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Categorías de interés</label>
+            <div style="display:flex;gap:20px;flex-wrap:wrap;margin-top:4px;">
+              <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.9rem;">
+                <input type="checkbox" value="escritorio" style="accent-color:var(--yellow);width:16px;height:16px;">
+                Escritorio / Oficina
+              </label>
+              <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.9rem;">
+                <input type="checkbox" value="aseo" style="accent-color:var(--yellow);width:16px;height:16px;">
+                Aseo / Limpieza
+              </label>
+              <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:.9rem;">
+                <input type="checkbox" value="construccion" style="accent-color:var(--yellow);width:16px;height:16px;">
+                Insumos Construcción
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="quoteProduct">Producto específico (opcional)</label>
+            <input type="text" class="form-control" id="quoteProduct" placeholder="Ej: Resma papel A4, escobas industriales…">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Volumen estimado mensual</label>
+            <select class="form-control">
+              <option value="">Selecciona rango…</option>
+              <option>Menos de $100.000</option>
+              <option>$100.000 – $500.000</option>
+              <option>$500.000 – $2.000.000</option>
+              <option>Más de $2.000.000</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Mensaje adicional</label>
+            <textarea class="form-control" placeholder="Cuéntanos más sobre tus necesidades, productos específicos o condiciones especiales…"></textarea>
+          </div>
+          <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+            <button type="submit" class="btn btn-yellow btn-lg">
+              <i class="fa-solid fa-paper-plane"></i> Enviar cotización
+            </button>
+            <p style="font-size:.82rem;">Al enviar aceptas nuestra <a href="privacidad.html" style="color:var(--yellow-dark);text-decoration:underline;">Política de Privacidad</a>.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="MACSOL_logos_file/MACSOL_logos/Logo_MACSOL-4.png" alt="Macsol">
+        <p>Distribuidora de artículos de escritorio, aseo e insumos de construcción.</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://wa.me/56956786336?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos" class="footer-social-btn" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Páginas</h4>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="productos.html">Productos</a>
+        <a href="empresas.html">Empresas</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="terminos.html">Términos y Condiciones</a>
+        <a href="privacidad.html">Política de Privacidad</a>
+        <a href="cookies.html">Política de Cookies</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <div class="footer-contact-item">
+          <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+          <div><p>macsol@hotmail.com</p><p style="font-size:.82rem;margin-top:2px;">macsol.mr@gmail.com</p></div>
+        </div>
+        <div class="footer-contact-item">
+          <span class="icon"><i class="fa-solid fa-phone"></i></span>
+          <p>+56 9 6574 0279</p>
+        </div>
+        <div class="footer-contact-item">
+          <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+          <p>Av. Camilo Henríquez 4182, Puente Alto</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Macsol. Todos los derechos reservados.</p>
+      <div class="footer-legal">
+        <a href="terminos.html">Términos</a>
+        <a href="privacidad.html">Privacidad</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner" id="cookieBanner">
+  <p>Usamos cookies para mejorar tu experiencia. Al continuar, aceptas nuestra <a href="cookies.html">Política de Cookies</a>.</p>
+  <div class="cookie-actions">
+    <button class="btn btn-outline-yellow btn-sm" id="cookieReject">Rechazar</button>
+    <button class="btn btn-yellow btn-sm" id="cookieAccept">Aceptar</button>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+<script>
+/* Override form success for quote form specifically */
+document.getElementById('quoteFormEl').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const btn = this.querySelector('[type="submit"]');
+  const orig = btn.innerHTML;
+  btn.disabled = true;
+  btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Enviando…';
+  setTimeout(() => {
+    btn.disabled = false;
+    btn.innerHTML = orig;
+    this.reset();
+    document.getElementById('quoteSuccess').style.display = 'block';
+    document.getElementById('quoteSuccess').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    setTimeout(() => { document.getElementById('quoteSuccess').style.display = 'none'; }, 8000);
+  }, 1400);
+});
+</script>
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://wa.me/56956786336?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+</body>
+</html>
+
+
+
