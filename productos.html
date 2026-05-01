@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos — Macsol</title>
+  <meta name="description" content="Catálogo de artículos de escritorio, aseo e insumos de construcción. Encuentra lo que necesitas en Macsol.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="navbar-brand">
+      <img src="MACSOL_logos_file/MACSOL_logos/Logo_MACSOL-4.png" alt="Macsol" class="navbar-logo">
+    </a>
+    <button class="navbar-toggle" id="navToggle" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="navbar-menu" id="navMenu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="empresas.html">Empresas</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <a href="empresas.html" class="btn btn-yellow navbar-cta">Cotizar ahora</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-content">
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-tag">Catálogo</div>
+      <h1>Nuestros productos</h1>
+      <p>Más de 1.200 artículos disponibles en stock. Escritorio, aseo e insumos de construcción para tu empresa.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <!-- TABS -->
+      <div class="products-tabs">
+        <button class="tab-btn active" data-cat="all">Todos</button>
+        <button class="tab-btn" data-cat="escritorio">✏️ Escritorio</button>
+        <button class="tab-btn" data-cat="aseo">🧹 Aseo</button>
+        <button class="tab-btn" data-cat="construccion">🔨 Construcción</button>
+      </div>
+
+      <!-- GRID (filled by JS) -->
+      <div class="products-grid" id="productsGrid"></div>
+
+      <!-- CTA -->
+      <div class="text-center mt-32" style="padding:40px;background:var(--yellow-light);border-radius:var(--radius-xl);border:1px solid var(--yellow-mid);margin-top:48px;">
+        <h3 style="margin-bottom:8px;">¿No encuentras lo que buscas?</h3>
+        <p style="margin-bottom:20px;">Contamos con más de 1.200 productos. Escríbenos y te ayudamos a encontrar lo que necesitas.</p>
+        <a href="contacto.html" class="btn btn-yellow">Consultar disponibilidad</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="MACSOL_logos_file/MACSOL_logos/Logo_MACSOL-4.png" alt="Macsol">
+        <p>Distribuidora de artículos de escritorio, aseo e insumos de construcción.</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://wa.me/56956786336?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos" class="footer-social-btn" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Páginas</h4>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="productos.html">Productos</a>
+        <a href="empresas.html">Empresas</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="terminos.html">Términos y Condiciones</a>
+        <a href="privacidad.html">Política de Privacidad</a>
+        <a href="cookies.html">Política de Cookies</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <div class="footer-contact-item">
+          <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+          <div><p>macsol@hotmail.com</p><p style="font-size:.82rem;margin-top:2px;">macsol.mr@gmail.com</p></div>
+        </div>
+        <div class="footer-contact-item">
+          <span class="icon"><i class="fa-solid fa-phone"></i></span>
+          <p>+56 9 6574 0279</p>
+        </div>
+        <div class="footer-contact-item">
+          <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+          <p>Av. Camilo Henríquez 4182, Puente Alto</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Macsol. Todos los derechos reservados.</p>
+      <div class="footer-legal">
+        <a href="terminos.html">Términos</a>
+        <a href="privacidad.html">Privacidad</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner" id="cookieBanner">
+  <p>Usamos cookies para mejorar tu experiencia. Al continuar, aceptas nuestra <a href="cookies.html">Política de Cookies</a>.</p>
+  <div class="cookie-actions">
+    <button class="btn btn-outline-yellow btn-sm" id="cookieReject">Rechazar</button>
+    <button class="btn btn-yellow btn-sm" id="cookieAccept">Aceptar</button>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+<script>
+/* Pre-select category from URL */
+window.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const cat = params.get('cat');
+  if (cat) {
+    const btn = document.querySelector(`.tab-btn[data-cat="${cat}"]`);
+    if (btn) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.product-card').forEach(card => {
+        if (card.dataset.cat === cat) card.classList.remove('hidden');
+        else card.classList.add('hidden');
+      });
+    }
+  }
+});
+</script>
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://wa.me/56956786336?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+</body>
+</html>
+
+
+
