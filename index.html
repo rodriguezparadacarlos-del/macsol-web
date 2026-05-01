@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macsol — Distribuidora de Insumos</title>
+  <meta name="description" content="Macsol: tu proveedor de artículos de escritorio, aseo e insumos de construcción. Calidad garantizada para empresas y particulares.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="navbar-brand">
+      <img src="MACSOL_logos_file/MACSOL_logos/Logo_MACSOL-4.png" alt="Macsol" class="navbar-logo">
+    </a>
+    <button class="navbar-toggle" id="navToggle" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="navbar-menu" id="navMenu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="empresas.html">Empresas</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+    <div class="navbar-actions">
+      <a href="empresas.html" class="btn btn-yellow navbar-cta">Cotizar ahora</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-content">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-accent"></div>
+    <div class="hero-accent-2"></div>
+    <div class="container">
+      <div class="hero-content animate">
+        <div class="hero-tag">
+          <i class="fa-solid fa-bolt"></i>
+          Distribuidora mayorista y minorista
+        </div>
+        <h1>Todo lo que tu empresa <span>necesita</span>, en un solo lugar</h1>
+        <p>Artículos de escritorio, aseo e insumos de construcción. Calidad garantizada, atención personalizada y despacho a todo Chile.</p>
+        <div class="hero-actions">
+          <a href="productos.html" class="btn btn-yellow btn-lg">Ver catálogo</a>
+          <a href="empresas.html" class="btn btn-outline-yellow btn-lg">Cotización B2B</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-img-box">
+          <img src="MACSOL_logos_file/MACSOL_logos/Logo_MACSOL-3.png" alt="Macsol" style="width:200px;background:transparent;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST -->
+  <section class="trust">
+    <div class="trust-grid container" style="max-width:1200px;">
+      <div class="trust-item">
+        <div class="icon">🏆</div>
+        <div class="number">+35</div>
+        <div class="label">Años de experiencia</div>
+      </div>
+      <div class="trust-item">
+        <div class="icon">🤝</div>
+        <div class="number">+200</div>
+        <div class="label">Clientes satisfechos</div>
+      </div>
+      <div class="trust-item">
+        <div class="icon">📦</div>
+        <div class="number">+1.200</div>
+        <div class="label">Productos disponibles</div>
+      </div>
+      <div class="trust-item">
+        <div class="icon">🚚</div>
+        <div class="number">48h</div>
+        <div class="label">Despacho en Santiago</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORÍAS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="tag">Nuestras categorías</div>
+        <h2>¿Qué estás buscando?</h2>
+        <p>Contamos con tres grandes familias de productos para cubrir todas las necesidades de tu empresa.</p>
+      </div>
+      <div class="cat-grid">
+        <a href="productos.html?cat=escritorio" class="cat-card cat-card-1">
+          <span class="cat-icon">✏️</span>
+          <div class="cat-card-body">
+            <span class="badge badge-yellow">Escritorio</span>
+            <h3>Artículos de Oficina</h3>
+            <p>Papel, archivadores, útiles, escritura y más para tu equipo de trabajo.</p>
+            <span class="btn btn-yellow btn-sm">Explorar →</span>
+          </div>
+        </a>
+        <a href="productos.html?cat=aseo" class="cat-card cat-card-2">
+          <span class="cat-icon">🧹</span>
+          <div class="cat-card-body">
+            <span class="badge badge-yellow">Aseo</span>
+            <h3>Productos de Limpieza</h3>
+            <p>Todo para mantener tus espacios limpios, desinfectados y organizados.</p>
+            <span class="btn btn-yellow btn-sm">Explorar →</span>
+          </div>
+        </a>
+        <a href="productos.html?cat=construccion" class="cat-card cat-card-3">
+          <span class="cat-icon">🔨</span>
+          <div class="cat-card-body">
+            <span class="badge badge-yellow">Construcción</span>
+            <h3>Insumos de Construcción</h3>
+            <p>Pinturas, EPP, herramientas y materiales para tus proyectos.</p>
+            <span class="btn btn-yellow btn-sm">Explorar →</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS DESTACADOS -->
+  <section class="section bg-gray">
+    <div class="container">
+      <div class="section-header">
+        <div class="tag">Catálogo</div>
+        <h2>Productos más solicitados</h2>
+        <p>Una selección de los artículos favoritos de nuestros clientes.</p>
+      </div>
+      <div class="products-grid" id="featuredGrid">
+        <!-- JS rendered -->
+      </div>
+      <div class="text-center mt-32">
+        <a href="productos.html" class="btn btn-dark btn-lg">Ver catálogo completo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA EMPRESAS -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>¿Tu empresa necesita abastecimiento continuo?</h2>
+      <p>Tenemos planes especiales para empresas con precios de volumen, crédito y atención personalizada.</p>
+      <div class="btn-group">
+        <a href="empresas.html" class="btn btn-dark btn-lg">Solicitar cotización</a>
+        <a href="contacto.html" class="btn btn-outline btn-lg">Hablar con un asesor</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ MACSOL -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="tag">¿Por qué elegirnos?</div>
+        <h2>Ventajas Macsol</h2>
+      </div>
+      <div class="values-grid">
+        <div class="value-card" style="background:var(--yellow-light);border:1px solid var(--yellow-mid);">
+          <div class="vi">💡</div>
+          <h3>Asesoría especializada</h3>
+          <p>Nuestro equipo te ayuda a elegir el producto correcto para cada necesidad y presupuesto.</p>
+        </div>
+        <div class="value-card" style="background:var(--gray-100);border:1px solid var(--gray-200);">
+          <div class="vi">🏭</div>
+          <h3>Stock permanente</h3>
+          <p>Mantenemos inventario en bodega propia para garantizar disponibilidad inmediata sin demoras.</p>
+        </div>
+        <div class="value-card" style="background:var(--yellow-light);border:1px solid var(--yellow-mid);">
+          <div class="vi">💰</div>
+          <h3>Precios competitivos</h3>
+          <p>Descuentos por volumen y convenios para empresas. Facturación y boletas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="MACSOL_logos_file/MACSOL_logos/Logo_MACSOL-4.png" alt="Macsol">
+        <p>Distribuidora de artículos de escritorio, aseo e insumos de construcción para empresas y particulares.</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="footer-social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://wa.me/56956786336?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos" class="footer-social-btn" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Páginas</h4>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="productos.html">Productos</a>
+        <a href="empresas.html">Empresas</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="terminos.html">Términos y Condiciones</a>
+        <a href="privacidad.html">Política de Privacidad</a>
+        <a href="cookies.html">Política de Cookies</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <div class="footer-contact-item">
+          <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+          <div><p>macsol@hotmail.com</p><p style="font-size:.82rem;margin-top:2px;">macsol.mr@gmail.com</p></div>
+        </div>
+        <div class="footer-contact-item">
+          <span class="icon"><i class="fa-solid fa-phone"></i></span>
+          <p>+56 9 6574 0279</p>
+        </div>
+        <div class="footer-contact-item">
+          <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+          <p>Av. Camilo Henríquez 4182, Puente Alto</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Macsol. Todos los derechos reservados.</p>
+      <div class="footer-legal">
+        <a href="terminos.html">Términos</a>
+        <a href="privacidad.html">Privacidad</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- COOKIE BANNER -->
+<div class="cookie-banner" id="cookieBanner">
+  <p>Usamos cookies para mejorar tu experiencia. Al continuar, aceptas nuestra <a href="cookies.html">Política de Cookies</a>.</p>
+  <div class="cookie-actions">
+    <button class="btn btn-outline-yellow btn-sm" id="cookieReject">Rechazar</button>
+    <button class="btn btn-yellow btn-sm" id="cookieAccept">Aceptar</button>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+<script>
+/* Featured products: show 8 random products */
+document.addEventListener('DOMContentLoaded', () => {
+  const grid = document.getElementById('featuredGrid');
+  const featured = window.macsolProducts.slice(0, 8);
+  grid.innerHTML = featured.map(p => `
+    <a href="producto-detalle.html?id=${p.id}" class="card product-card" data-cat="${p.cat}" style="display:flex;flex-direction:column;">
+      <div class="product-img">${p.icon}</div>
+      <div class="card-body" style="flex:1;display:flex;flex-direction:column;">
+        <p class="product-cat">${p.cat.charAt(0).toUpperCase()+p.cat.slice(1)}</p>
+        <h3>${p.name}</h3>
+        <div style="flex:1;"></div>
+        <div class="product-actions" style="margin-top:12px;display:flex;justify-content:space-between;align-items:center;">
+          <span class="badge badge-yellow">${p.sku}</span>
+          <span class="btn btn-sm btn-yellow" style="pointer-events:none;">Ver detalle</span>
+        </div>
+      </div>
+    </a>
+  `).join('');
+});
+</script>
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://wa.me/56956786336?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+</body>
+</html>
+
+
+
